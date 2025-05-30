@@ -1,3 +1,56 @@
 body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
 
+.blue-bg {
+  background-color: #add8e6; /* light blue */
+}
+
+nav {
+  background-color: #222;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+.rian-title {
+  color: black;
+  border: 3px solid green;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.penguin-img {
+  width: 200px;
+  margin-top: 20px;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project iframe {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ccc;
 }
